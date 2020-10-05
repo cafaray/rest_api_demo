@@ -12,7 +12,6 @@ log = logging.getLogger(__name__)
 
 ns = api.namespace('blog/posts', description='Operations related to blog posts')
 
-
 @ns.route('/')
 class PostsCollection(Resource):
 
